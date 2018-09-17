@@ -15,4 +15,4 @@ Player 2 (Green): Press "Space" on keyboard to Jump
 # Starting Screen
 ![alt text](https://github.com/edtsoi430/FlappyBird/blob/master/resources/startScreen.png)
 # Game Over Screen 
-![alt text](https://github.com/edtsoi430/FlappyBird/blob/master/gameOver.png)
+![alt text](https://github.com/edtsoi430/FlappyBird/blob/master/resources/gameOver.png)
