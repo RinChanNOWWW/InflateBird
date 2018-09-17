@@ -12,6 +12,7 @@ Executables (.app and .exe) are both located in the Builds folder.
 Player 1 (Yellow): Left Click to Jump   
 
 Player 2 (Green): Press "Space" on keyboard to Jump
-
+# Starting Screen
+![alt text]()
 # Game Over Screen 
 ![alt text](https://github.com/edtsoi430/FlappyBird/blob/master/gameOver.png)
