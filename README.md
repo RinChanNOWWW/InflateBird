@@ -1,10 +1,10 @@
 # FlappyBird
-Created a multiplayer version of Flappy Bird that supports both Mac and Windows PC using Unity. 
+Recreated Flappy Bird and added in a customized Multiplayer version that supports both Mac and Windows PC using Unity with C#. 
 
 
 Executables (.app and .exe) are both located in the Builds folder.
 
-Unity version used : 2.6f 2018
+Unity version used in this recreation: 2.6f 2018
 
 
 
