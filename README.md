@@ -4,7 +4,7 @@ Recreated Flappy Bird and added in a customized Multiplayer version that support
 
 Executables (.app and .exe) are both located in the Builds folder.
 
-Unity version used in this recreation: 2.6f 201
+Unity version used in this recreation: 2.6f 2018
 
 
 
