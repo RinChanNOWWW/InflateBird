@@ -1,5 +1,5 @@
 # FlappyBird
-Recreated Flappy Bird and added in a customized Multiplayer version that supports both Mac and Windows PC using Unity with C#. 
+Recreated Flappy Bird by Dong Nguyen and added in a customized Multiplayer version that supports both Mac and Windows PC using Unity with C#. 
 
 
 Executables (.app and .exe) are both located in the Builds folder.
