@@ -16,7 +16,7 @@ public class ColumnPool : MonoBehaviour {
     private int currentColumn = 0;
 
 	// Use this for initialization
-	void Start () 
+	void Start ()
     {
         columns = new GameObject[columnPoolSize];
         for (int i = 0; i < columnPoolSize; i++)
@@ -24,9 +24,9 @@ public class ColumnPool : MonoBehaviour {
             columns[i] = (GameObject)Instantiate(columnPrefab, objectPoolPosition, Quaternion.identity);
         }
 	}
-	
+
 	// Update is called once per frame
-	void Update () 
+	void Update ()
     {
         timeSinceLastSpawned += Time.deltaTime;
         if (timeSinceLastSpawned >= spawnRate)
