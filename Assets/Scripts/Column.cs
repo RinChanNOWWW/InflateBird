@@ -8,15 +8,9 @@ public class Column : MonoBehaviour {
     {
         if (other.GetComponent<Bird> () != null)
         {
-
-            // GameControl.instance.Bird2Scored();
             if (other.CompareTag("B1"))
             {
                 GameControl.instance.BirdScored();
-            }
-            if (other.CompareTag("B2"))
-            {
-                GameControl.instance.Bird2Scored();
             }
         }
     }

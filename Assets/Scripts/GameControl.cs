@@ -9,15 +9,12 @@ public class GameControl : MonoBehaviour {
     public static GameControl instance;
     public GameObject gameOverText;
     public Text scoreText;
-    public Text scoreText2;
     public bool gameOver = false;
-    public bool gameOver2 = false;
     public float scrollSpeed = -1.5f;
 
     private int score = 0;
-    private int score2 = 0;
 
-	void Awake () 
+	void Awake ()
     {
         if (instance == null)
         {
@@ -27,10 +24,10 @@ public class GameControl : MonoBehaviour {
             Destroy (gameObject);
         }
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		if (gameOver == true && gameOver2 == true && Input.GetMouseButtonDown(0))
+		if (gameOver == true && Input.GetMouseButtonDown(0))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
@@ -43,37 +40,12 @@ public class GameControl : MonoBehaviour {
             return;
         }
         score++;
-        scoreText.text = "Player 1 Score:  " + score.ToString();
-    }
-    // multiplayer 
-    public void Bird2Scored()
-    {
-        if (gameOver2)
-        {
-            return;
-        }
-        score2++;
-        scoreText2.text = "Player 2 Score:  " + score2.ToString();
+        scoreText.text = "Score:  " + score.ToString();
     }
 
     public void BirdDied()
     {
         gameOver = true;
-
-        if(gameOver2 == true)
-        {
-            gameOverText.SetActive(true);
-        }
+        gameOverText.SetActive(true);
     }
-
-    public void Bird2Died()
-    {
-        gameOver2 = true;
-
-        if(gameOver == true)
-        {
-            gameOverText.SetActive(true);
-        }
-    }
-
 }
