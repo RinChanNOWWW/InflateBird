@@ -70,7 +70,6 @@ public class Bird : MonoBehaviour
     void UpdateVelocity()
     {
         rb.velocity = new Vector2 (0, gravityVelocity + baseVelocity - velocityRatio * GetSize());
-        Debug.Log(rb.velocity);
     }
 
     float GetSize()
